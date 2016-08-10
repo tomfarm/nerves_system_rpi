@@ -6,7 +6,7 @@ defmodule NervesSystemRpi.Mixfile do
     |> String.strip
 
   def project do
-    [app: :nerves_system_rpi,
+    [app: :"nerves_system_rpi-cups",
      version: @version,
      elixir: "~> 1.2",
      compilers: Mix.compilers ++ [:nerves_system],
