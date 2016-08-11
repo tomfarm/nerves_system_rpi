@@ -5,7 +5,7 @@ version =
   |> File.read!
   |> String.strip
 
-config :"nerves_system_rpi-cups", :nerves_env,
+config :"nerves_system_rpi_cups", :nerves_env,
   type: :system,
   version: version,
   mirrors: [
